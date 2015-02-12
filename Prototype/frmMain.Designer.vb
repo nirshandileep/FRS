@@ -22,42 +22,42 @@ Partial Class frmMain
         Me.components = New System.ComponentModel.Container()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.RegistrationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.InstitutionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CouncilsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AssetsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ResourceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.UsersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RolesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RightsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
-        Me.TransactionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BookingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PaymentToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ReportsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BookingToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PaymentSummaryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SearchToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NewToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SearchToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NewToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SearchToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NewToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SearchToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NewToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SearchToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NewToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NewToolStripMenuItem6 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SearchToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AddToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SearchToolStripMenuItem6 = New System.Windows.Forms.ToolStripMenuItem()
         Me.CustomerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewToolStripMenuItem7 = New System.Windows.Forms.ToolStripMenuItem()
         Me.SearchToolStripMenuItem7 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InstitutionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SearchToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CouncilsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SearchToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AssetsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SearchToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ResourceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SearchToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UsersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SearchToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RolesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RightsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TransactionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BookingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewToolStripMenuItem6 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SearchToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PaymentToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AddToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SearchToolStripMenuItem6 = New System.Windows.Forms.ToolStripMenuItem()
         Me.DamageItemsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DamageItemsToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewToolStripMenuItem8 = New System.Windows.Forms.ToolStripMenuItem()
         Me.SearchToolStripMenuItem8 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ReportsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BookingToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PaymentSummaryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DamageItemsToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -77,12 +77,43 @@ Partial Class frmMain
         Me.RegistrationToolStripMenuItem.Size = New System.Drawing.Size(82, 20)
         Me.RegistrationToolStripMenuItem.Text = "Registration"
         '
+        'CustomerToolStripMenuItem
+        '
+        Me.CustomerToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem7, Me.SearchToolStripMenuItem7})
+        Me.CustomerToolStripMenuItem.Name = "CustomerToolStripMenuItem"
+        Me.CustomerToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CustomerToolStripMenuItem.Text = "Customer"
+        '
+        'NewToolStripMenuItem7
+        '
+        Me.NewToolStripMenuItem7.Name = "NewToolStripMenuItem7"
+        Me.NewToolStripMenuItem7.Size = New System.Drawing.Size(109, 22)
+        Me.NewToolStripMenuItem7.Text = "New"
+        '
+        'SearchToolStripMenuItem7
+        '
+        Me.SearchToolStripMenuItem7.Name = "SearchToolStripMenuItem7"
+        Me.SearchToolStripMenuItem7.Size = New System.Drawing.Size(109, 22)
+        Me.SearchToolStripMenuItem7.Text = "Search"
+        '
         'InstitutionToolStripMenuItem
         '
         Me.InstitutionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem, Me.SearchToolStripMenuItem})
         Me.InstitutionToolStripMenuItem.Name = "InstitutionToolStripMenuItem"
         Me.InstitutionToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.InstitutionToolStripMenuItem.Text = "Institution"
+        '
+        'NewToolStripMenuItem
+        '
+        Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
+        Me.NewToolStripMenuItem.Text = "New"
+        '
+        'SearchToolStripMenuItem
+        '
+        Me.SearchToolStripMenuItem.Name = "SearchToolStripMenuItem"
+        Me.SearchToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
+        Me.SearchToolStripMenuItem.Text = "Search"
         '
         'CouncilsToolStripMenuItem
         '
@@ -91,12 +122,36 @@ Partial Class frmMain
         Me.CouncilsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.CouncilsToolStripMenuItem.Text = "Councils"
         '
+        'NewToolStripMenuItem1
+        '
+        Me.NewToolStripMenuItem1.Name = "NewToolStripMenuItem1"
+        Me.NewToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.NewToolStripMenuItem1.Text = "New"
+        '
+        'SearchToolStripMenuItem1
+        '
+        Me.SearchToolStripMenuItem1.Name = "SearchToolStripMenuItem1"
+        Me.SearchToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.SearchToolStripMenuItem1.Text = "Search"
+        '
         'AssetsToolStripMenuItem
         '
         Me.AssetsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem2, Me.SearchToolStripMenuItem2})
         Me.AssetsToolStripMenuItem.Name = "AssetsToolStripMenuItem"
         Me.AssetsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AssetsToolStripMenuItem.Text = "Assets"
+        '
+        'NewToolStripMenuItem2
+        '
+        Me.NewToolStripMenuItem2.Name = "NewToolStripMenuItem2"
+        Me.NewToolStripMenuItem2.Size = New System.Drawing.Size(109, 22)
+        Me.NewToolStripMenuItem2.Text = "New"
+        '
+        'SearchToolStripMenuItem2
+        '
+        Me.SearchToolStripMenuItem2.Name = "SearchToolStripMenuItem2"
+        Me.SearchToolStripMenuItem2.Size = New System.Drawing.Size(109, 22)
+        Me.SearchToolStripMenuItem2.Text = "Search"
         '
         'ResourceToolStripMenuItem
         '
@@ -105,12 +160,36 @@ Partial Class frmMain
         Me.ResourceToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ResourceToolStripMenuItem.Text = "Inventory"
         '
+        'NewToolStripMenuItem3
+        '
+        Me.NewToolStripMenuItem3.Name = "NewToolStripMenuItem3"
+        Me.NewToolStripMenuItem3.Size = New System.Drawing.Size(109, 22)
+        Me.NewToolStripMenuItem3.Text = "New"
+        '
+        'SearchToolStripMenuItem3
+        '
+        Me.SearchToolStripMenuItem3.Name = "SearchToolStripMenuItem3"
+        Me.SearchToolStripMenuItem3.Size = New System.Drawing.Size(109, 22)
+        Me.SearchToolStripMenuItem3.Text = "Search"
+        '
         'UsersToolStripMenuItem
         '
         Me.UsersToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem4, Me.SearchToolStripMenuItem4})
         Me.UsersToolStripMenuItem.Name = "UsersToolStripMenuItem"
         Me.UsersToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.UsersToolStripMenuItem.Text = "Users"
+        '
+        'NewToolStripMenuItem4
+        '
+        Me.NewToolStripMenuItem4.Name = "NewToolStripMenuItem4"
+        Me.NewToolStripMenuItem4.Size = New System.Drawing.Size(109, 22)
+        Me.NewToolStripMenuItem4.Text = "New"
+        '
+        'SearchToolStripMenuItem4
+        '
+        Me.SearchToolStripMenuItem4.Name = "SearchToolStripMenuItem4"
+        Me.SearchToolStripMenuItem4.Size = New System.Drawing.Size(109, 22)
+        Me.SearchToolStripMenuItem4.Text = "Search"
         '
         'RolesToolStripMenuItem
         '
@@ -119,15 +198,17 @@ Partial Class frmMain
         Me.RolesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.RolesToolStripMenuItem.Text = "Roles"
         '
+        'NewToolStripMenuItem5
+        '
+        Me.NewToolStripMenuItem5.Name = "NewToolStripMenuItem5"
+        Me.NewToolStripMenuItem5.Size = New System.Drawing.Size(98, 22)
+        Me.NewToolStripMenuItem5.Text = "New"
+        '
         'RightsToolStripMenuItem
         '
         Me.RightsToolStripMenuItem.Name = "RightsToolStripMenuItem"
         Me.RightsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.RightsToolStripMenuItem.Text = "Rights"
-        '
-        'DefaultLookAndFeel1
-        '
-        Me.DefaultLookAndFeel1.LookAndFeel.SkinName = "VS2010"
         '
         'TransactionsToolStripMenuItem
         '
@@ -140,15 +221,58 @@ Partial Class frmMain
         '
         Me.BookingToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem6, Me.SearchToolStripMenuItem5})
         Me.BookingToolStripMenuItem.Name = "BookingToolStripMenuItem"
-        Me.BookingToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.BookingToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.BookingToolStripMenuItem.Text = "Booking"
+        '
+        'NewToolStripMenuItem6
+        '
+        Me.NewToolStripMenuItem6.Name = "NewToolStripMenuItem6"
+        Me.NewToolStripMenuItem6.Size = New System.Drawing.Size(109, 22)
+        Me.NewToolStripMenuItem6.Text = "New"
+        '
+        'SearchToolStripMenuItem5
+        '
+        Me.SearchToolStripMenuItem5.Name = "SearchToolStripMenuItem5"
+        Me.SearchToolStripMenuItem5.Size = New System.Drawing.Size(109, 22)
+        Me.SearchToolStripMenuItem5.Text = "Search"
         '
         'PaymentToolStripMenuItem
         '
         Me.PaymentToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddToolStripMenuItem, Me.SearchToolStripMenuItem6})
         Me.PaymentToolStripMenuItem.Name = "PaymentToolStripMenuItem"
-        Me.PaymentToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PaymentToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.PaymentToolStripMenuItem.Text = "Payment"
+        '
+        'AddToolStripMenuItem
+        '
+        Me.AddToolStripMenuItem.Name = "AddToolStripMenuItem"
+        Me.AddToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
+        Me.AddToolStripMenuItem.Text = "Add"
+        '
+        'SearchToolStripMenuItem6
+        '
+        Me.SearchToolStripMenuItem6.Name = "SearchToolStripMenuItem6"
+        Me.SearchToolStripMenuItem6.Size = New System.Drawing.Size(109, 22)
+        Me.SearchToolStripMenuItem6.Text = "Search"
+        '
+        'DamageItemsToolStripMenuItem
+        '
+        Me.DamageItemsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem8, Me.SearchToolStripMenuItem8})
+        Me.DamageItemsToolStripMenuItem.Name = "DamageItemsToolStripMenuItem"
+        Me.DamageItemsToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
+        Me.DamageItemsToolStripMenuItem.Text = "Damage items"
+        '
+        'NewToolStripMenuItem8
+        '
+        Me.NewToolStripMenuItem8.Name = "NewToolStripMenuItem8"
+        Me.NewToolStripMenuItem8.Size = New System.Drawing.Size(109, 22)
+        Me.NewToolStripMenuItem8.Text = "New"
+        '
+        'SearchToolStripMenuItem8
+        '
+        Me.SearchToolStripMenuItem8.Name = "SearchToolStripMenuItem8"
+        Me.SearchToolStripMenuItem8.Size = New System.Drawing.Size(109, 22)
+        Me.SearchToolStripMenuItem8.Text = "Search"
         '
         'ReportsToolStripMenuItem
         '
@@ -169,139 +293,11 @@ Partial Class frmMain
         Me.PaymentSummaryToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
         Me.PaymentSummaryToolStripMenuItem.Text = "Payment (Receipt)"
         '
-        'NewToolStripMenuItem
-        '
-        Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.NewToolStripMenuItem.Text = "New"
-        '
-        'SearchToolStripMenuItem
-        '
-        Me.SearchToolStripMenuItem.Name = "SearchToolStripMenuItem"
-        Me.SearchToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.SearchToolStripMenuItem.Text = "Search"
-        '
-        'NewToolStripMenuItem1
-        '
-        Me.NewToolStripMenuItem1.Name = "NewToolStripMenuItem1"
-        Me.NewToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
-        Me.NewToolStripMenuItem1.Text = "New"
-        '
-        'SearchToolStripMenuItem1
-        '
-        Me.SearchToolStripMenuItem1.Name = "SearchToolStripMenuItem1"
-        Me.SearchToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
-        Me.SearchToolStripMenuItem1.Text = "Search"
-        '
-        'NewToolStripMenuItem2
-        '
-        Me.NewToolStripMenuItem2.Name = "NewToolStripMenuItem2"
-        Me.NewToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
-        Me.NewToolStripMenuItem2.Text = "New"
-        '
-        'SearchToolStripMenuItem2
-        '
-        Me.SearchToolStripMenuItem2.Name = "SearchToolStripMenuItem2"
-        Me.SearchToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
-        Me.SearchToolStripMenuItem2.Text = "Search"
-        '
-        'NewToolStripMenuItem3
-        '
-        Me.NewToolStripMenuItem3.Name = "NewToolStripMenuItem3"
-        Me.NewToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
-        Me.NewToolStripMenuItem3.Text = "New"
-        '
-        'SearchToolStripMenuItem3
-        '
-        Me.SearchToolStripMenuItem3.Name = "SearchToolStripMenuItem3"
-        Me.SearchToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
-        Me.SearchToolStripMenuItem3.Text = "Search"
-        '
-        'NewToolStripMenuItem4
-        '
-        Me.NewToolStripMenuItem4.Name = "NewToolStripMenuItem4"
-        Me.NewToolStripMenuItem4.Size = New System.Drawing.Size(152, 22)
-        Me.NewToolStripMenuItem4.Text = "New"
-        '
-        'SearchToolStripMenuItem4
-        '
-        Me.SearchToolStripMenuItem4.Name = "SearchToolStripMenuItem4"
-        Me.SearchToolStripMenuItem4.Size = New System.Drawing.Size(152, 22)
-        Me.SearchToolStripMenuItem4.Text = "Search"
-        '
-        'NewToolStripMenuItem5
-        '
-        Me.NewToolStripMenuItem5.Name = "NewToolStripMenuItem5"
-        Me.NewToolStripMenuItem5.Size = New System.Drawing.Size(152, 22)
-        Me.NewToolStripMenuItem5.Text = "New"
-        '
-        'NewToolStripMenuItem6
-        '
-        Me.NewToolStripMenuItem6.Name = "NewToolStripMenuItem6"
-        Me.NewToolStripMenuItem6.Size = New System.Drawing.Size(152, 22)
-        Me.NewToolStripMenuItem6.Text = "New"
-        '
-        'SearchToolStripMenuItem5
-        '
-        Me.SearchToolStripMenuItem5.Name = "SearchToolStripMenuItem5"
-        Me.SearchToolStripMenuItem5.Size = New System.Drawing.Size(152, 22)
-        Me.SearchToolStripMenuItem5.Text = "Search"
-        '
-        'AddToolStripMenuItem
-        '
-        Me.AddToolStripMenuItem.Name = "AddToolStripMenuItem"
-        Me.AddToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.AddToolStripMenuItem.Text = "Add"
-        '
-        'SearchToolStripMenuItem6
-        '
-        Me.SearchToolStripMenuItem6.Name = "SearchToolStripMenuItem6"
-        Me.SearchToolStripMenuItem6.Size = New System.Drawing.Size(152, 22)
-        Me.SearchToolStripMenuItem6.Text = "Search"
-        '
-        'CustomerToolStripMenuItem
-        '
-        Me.CustomerToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem7, Me.SearchToolStripMenuItem7})
-        Me.CustomerToolStripMenuItem.Name = "CustomerToolStripMenuItem"
-        Me.CustomerToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.CustomerToolStripMenuItem.Text = "Customer"
-        '
-        'NewToolStripMenuItem7
-        '
-        Me.NewToolStripMenuItem7.Name = "NewToolStripMenuItem7"
-        Me.NewToolStripMenuItem7.Size = New System.Drawing.Size(152, 22)
-        Me.NewToolStripMenuItem7.Text = "New"
-        '
-        'SearchToolStripMenuItem7
-        '
-        Me.SearchToolStripMenuItem7.Name = "SearchToolStripMenuItem7"
-        Me.SearchToolStripMenuItem7.Size = New System.Drawing.Size(152, 22)
-        Me.SearchToolStripMenuItem7.Text = "Search"
-        '
-        'DamageItemsToolStripMenuItem
-        '
-        Me.DamageItemsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem8, Me.SearchToolStripMenuItem8})
-        Me.DamageItemsToolStripMenuItem.Name = "DamageItemsToolStripMenuItem"
-        Me.DamageItemsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.DamageItemsToolStripMenuItem.Text = "Damage items"
-        '
         'DamageItemsToolStripMenuItem1
         '
         Me.DamageItemsToolStripMenuItem1.Name = "DamageItemsToolStripMenuItem1"
         Me.DamageItemsToolStripMenuItem1.Size = New System.Drawing.Size(171, 22)
         Me.DamageItemsToolStripMenuItem1.Text = "Damage Items"
-        '
-        'NewToolStripMenuItem8
-        '
-        Me.NewToolStripMenuItem8.Name = "NewToolStripMenuItem8"
-        Me.NewToolStripMenuItem8.Size = New System.Drawing.Size(152, 22)
-        Me.NewToolStripMenuItem8.Text = "New"
-        '
-        'SearchToolStripMenuItem8
-        '
-        Me.SearchToolStripMenuItem8.Name = "SearchToolStripMenuItem8"
-        Me.SearchToolStripMenuItem8.Size = New System.Drawing.Size(152, 22)
-        Me.SearchToolStripMenuItem8.Text = "Search"
         '
         'frmMain
         '

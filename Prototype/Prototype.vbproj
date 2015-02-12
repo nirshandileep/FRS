@@ -53,6 +53,8 @@
     <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -76,6 +78,42 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmCouncil.Designer.vb">
+      <DependentUpon>frmCouncil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCouncil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCouncilSearch.Designer.vb">
+      <DependentUpon>frmCouncilSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCouncilSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomer.Designer.vb">
+      <DependentUpon>frmCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerSearch.Designer.vb">
+      <DependentUpon>frmCustomerSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInstitution.Designer.vb">
+      <DependentUpon>frmInstitution.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInstitution.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInstitutionSearch.Designer.vb">
+      <DependentUpon>frmInstitutionSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInstitutionSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmMain.Designer.vb">
       <DependentUpon>frmMain.vb</DependentUpon>
     </Compile>
@@ -99,9 +137,28 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmCouncil.resx">
+      <DependentUpon>frmCouncil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCouncilSearch.resx">
+      <DependentUpon>frmCouncilSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomer.resx">
+      <DependentUpon>frmCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerSearch.resx">
+      <DependentUpon>frmCustomerSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInstitution.resx">
+      <DependentUpon>frmInstitution.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInstitutionSearch.resx">
+      <DependentUpon>frmInstitutionSearch.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
